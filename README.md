@@ -4,7 +4,8 @@
 Rest Api built with rails 7.
 ## Demo-online
 **[Get Products](https://bsale-challenge2022.herokuapp.com/api/products)**
-**[Search Product](https://bsale-challenge2022.herokuapp.com/api/products/search?=coca)**
+
+**[Search Product](https://bsale-challenge2022.herokuapp.com/api/products/search?q=coca)**
 ## Getting started
 1. First clone this repo with
 docker container run --rm -v $(pwd):/app -v ssh:/root/.ssh codeableorg/git clone {the ssh goes here}
